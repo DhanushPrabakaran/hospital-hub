@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+   top: 0px;
+   font-family: 'Playfair Display', serif;
+  }
+body {
+ 
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+      margin: 0% 0% 0% 0%;
+      width:100%;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 40px;
+    background-color: #00FFCA;
+    height:100px;
+    align-items: center;
+    color:#0A4D68;
+    width:100%;
+    justify-content: space-between;
+    /* justify-content: space-around; */
+  }
+  .input{
+    min-height: 50px;
+    max-width:300px;
+    padding:01ree;
+    font-size: 20px;
+    color: #0A4D68;
+    border-radius:6px 0  0 6px;
+    /* background-color: #ffffff9a; */
+    /* text-align: center; */
+
+  }
+  .web-name{
+    font-size: xx-large;
+   
+  }
+  .nav:hover{
+    background-color: black;
+  }
+  .nav{
+    background-color:#0A4D68 ;
+    font-size: medium;
+      color:#E1E8EB;
+      text-decoration: none;
+      padding: 10px 20px 10px 20px;
+      border-radius: 24px;
+      transition: all 0.5s;
+  }
+
+#form {
+    width: 500px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+#form h1 {
+    color: #0f2027;
+    text-align: center;
+}
+
+#form button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    background-color: rgb(41, 57, 194);
+    border: none;
+    border-radius: 4px;
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-control input {
+    border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-size: 12px;
+	padding: 10px;
+	width: 100%;
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+}

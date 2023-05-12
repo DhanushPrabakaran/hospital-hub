@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+* {
+    box-sizing: border-box;
+   top: 0px;
+   font-family: 'Playfair Display', serif;
+  }
+  body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+      margin: 0% 0% 0% 0%;
+      width:100%;
+      background-color: azure;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 40px;
+    background-color: #00FFCA;
+    height:100px;
+    align-items: center;
+    color:#0A4D68;
+    width:100%;
+    justify-content: space-between;
+    /* justify-content: space-around; */
+  }
+  
+  .input{
+    min-height: 50px;
+    max-width:300px;
+    padding:01ree;
+    font-size: 20px;
+    color: #0A4D68;
+    border-radius:6px 0  0 6px;
+    /* background-color: #ffffff9a; */
+    /* text-align: center; */
+
+  }
+  
+  .web-name{
+    font-size: xx-large;
+   
+  }
+  .nav{
+    background-color:#0A4D68 ;
+    font-size: medium;
+      color:#E1E8EB;
+      text-decoration: none;
+      padding: 10px 20px 10px 20px;
+      border-radius: 24px;
+      transition: all 0.5s;
+  }
+ .nav:hover{
+  background-color: purple;
+ }
+  .example {
+    display:flex;
+    padding: 10px;
+    justify-content: space-around;
+    justify-content: center;
+    margin:0px;
+    width: 100%;
+    height: 400px;
+    background-image: url(https://img.freepik.com/free-photo/team-young-specialist-doctors-standing-corridor-hospital_1303-21202.jpg?w=996&t=st=1683698559~exp=1683699159~hmac=172929abd417f070bdde44e84497c0f969f168a186aaff15d911ab58e6154731);    
+     background-repeat: no-repeat;
+     background-size: cover;
+     height:1000px;
+     
+     
+  }
+  .logo{
+    padding: 0% 0% 0% 0%;
+    margin: 0% 0% 0% 0%;
+  }
+  .flex{
+    border:5px solid black;
+    padding:10px;
+    display:flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    width:75%;
+    align-content: center;
+    align-items:stretch;
+    justify-content: stretch;
+    margin:0%;
+    
+    
+  }
+  .cn {
+   justify-content: center;
+   justify-content: space-around;
+   border:5px solid black;
+   padding: 10px;
+   color:black;
+   
+  }
+  .cn:nth-child(2){
+    flex-grow:2;
+  }
+  .cn:nth-child(3){
+    flex-grow: 2;
+  }
+  .table{
+    color:black 5px;
+    border: 5px solid black;
+    width:100%;
+    justify-content: center;
+  }
+  
+ 
+  .button{
+    min-height: 50px;
+    max-width:500px;
+    padding:01ree;
+    color: #0A4D68;
+    font-size: 15px;
+    border:1px solid #0A4D68;
+    border-radius:0px 6px  6px 0px;
+    background-color: transparent;
+    background-color: #6ccfd6;
+    transition: all 0.5s;
+  }
+  .button:hover{
+    color: aliceblue;
+    background-color: #005577;
+  }
+  .h{
+    display:flex;
+    background-color: #005577 ;
+    width:50%;
+    justify-content: center;
+    color: white;
+  }
+  .b{
+    background-color: paleturquoise;
+  }
+  .p{
+    background-color: #0A4D68;
+  }
+  .p1{
+    justify-content: space-between;
+    font-weight: bold;
+    color:5px solid black;
+    font-size:larger ;
+  }
